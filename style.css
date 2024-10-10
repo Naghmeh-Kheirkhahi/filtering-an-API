@@ -3,11 +3,66 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .mainClass {
-    background-color: #faffb4;
-    padding: 2rem 5rem;
+    background-color: #e0ff96;
+    padding: 4rem 8rem;
     margin: 5rem 0;
+    text-align: center;
 }
+
+.mainClass h1 {
+    font-weight: 800;
+    padding-bottom: 5rem;
+    color: #484848;
+    font-size: 3rem;
+}
+
+.btns {
+    padding-bottom: 3rem;
+}
+
+.btns button {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #484848;
+    color: #d2ff68;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.products {
+    align-items: center;
+}
+
+.products div {
+    padding: 2rem 0;
+}
+
+.products img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.products h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+}
+
+.products p {
+    font-weight: 700;
+    color: rgb(67, 67, 67);
+}
+
+.description {
+    font-size: 0.8rem;
+    color: rgb(104, 104, 104) !important;
+    padding: 0 2rem;
+}
+
